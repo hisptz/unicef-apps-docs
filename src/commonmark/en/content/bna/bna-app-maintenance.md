@@ -1,11 +1,11 @@
 # BNA App Maintenance
 
-##Maintaining Interventions
+## Maintaining Interventions
 
 BNA Application allows users with administrative privileges to create, rename,
 organize (laying out), or delete interventions.
 
-###Creating an Intervention
+### Creating an Intervention
 
 As an administrator, you can create new interventions in the BNA Application and
  save them. This is applicable when there is a new intervention to be added in
@@ -21,7 +21,7 @@ button to complete creating an intervention or cancel to revert.
 
 ![Steps to create Interventions in the BNA App](resources/images/image52.png)
 
-###Searching for Interventions
+### Searching for Interventions
 
 Once the BNA App is open the list of configured interventions will be shown on
 the pill buttons with the active one highlighted in color green. The user can
@@ -31,7 +31,7 @@ interventions found at the leftmost top area of their screens.
 
 ![Searching for an intervention so as to start analysis for the intervention](resources/images/image53.png)
 
-###Renaming an Intervention
+### Renaming an Intervention
 
 BNA Application allows users with administrative privileges to rename the
 existing interventions in the system with the new names. Renaming of intervention
@@ -47,7 +47,7 @@ click on the editing icon.
 
 ![Renaming Interventions](resources/images/image54.png)
 
-###Access sharing/control
+### Access sharing/control
 
 An administrative user of BNA App can choose to share their interventions,
 its very easy to share the interventions that they have configured.
@@ -77,7 +77,7 @@ management of BNA Interventions only through the datastore.
 >User groups appearing on the access sharing list should exist in the user
 groups that were created in the “Users” app.
 
-###Bookmark an Intervention
+### Bookmark an Intervention
 
 To bookmark an intervention an administrative user will have to simply head on
 to the control options found just below the list of interventions next to the
@@ -87,7 +87,7 @@ is also displayed on this control area.
 
 ![An intervention that has been bookmarked](resources/images/image56.png)
 
-###Deleting an Intervention
+### Deleting an Intervention
 
 The BNA App allows deletion  of an intervention from the system whenever necessary.
 Deleting intervention means you delete all indicators, bottleneck charts, sub-level
@@ -105,9 +105,9 @@ right side of the App and confirming deletion by clicking ‘yes’ option.
 
 ![Confirmation of deleting an intervention](resources/images/image58.png)
 
-##BNA Widgets setup
+## BNA Widgets setup
 
-###Accessing Widgets
+### Accessing Widgets
 
 BNA Widgets are meant to mainly be accessed by users at district levels.
 Widget is a separate application that is installed in DHIS2 instance to work with
@@ -119,7 +119,7 @@ App Management in the DHIS2 global menu to install it.
 ![Installing BNA widget in DHIS2](resources/Images/image59.png)
 
 
-###Setting up Widgets
+### Setting up Widgets
 
 At first glance, when the administrator has installed the BNA Application into
 a clean instance the root cause analysis data entry component of the intervention

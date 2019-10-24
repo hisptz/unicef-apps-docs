@@ -1,4 +1,4 @@
-#Installing the BNA App
+# Installing the BNA App
 
 The BNA app is completely free and open source and available on the
 [DHIS2 app store](https://play.dhis2.org/appstore/app/gFr0w6pDYbY).
@@ -16,7 +16,7 @@ fixing any issues.
 There are two ways of installing bottleneck analysis app into your
 DHIS2 instance.
 
-##Installation from within DHIS2
+## Installation from within DHIS2
 
 This installation approach is the most direct, but only available on
 DHIS2 running version 2.28 and above
@@ -37,7 +37,7 @@ When done installing, the BNA App will be accessible from the search menu.
 Note: This step is only successful if you have an internet connection and your
 DHIS2 instance is accessible online.
 
-##Installation from DHIS2 App store website
+## Installation from DHIS2 App store website
 
 Access the interactive bottleneck analysis and bottleneck root cause data entry
 apps from the [DHIS2 app store](https://play.dhis2.org/appstore/). This approach
