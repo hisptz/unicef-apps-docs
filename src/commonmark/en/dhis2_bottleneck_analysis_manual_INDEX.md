@@ -13,7 +13,7 @@ logo: resources/images/image17.png
 <!--DHIS2-SECTION-ID:index-->
 
 <!-- if you want to take the about page from the main repo, use the following relative link
-!INCLUDE "../../../common/about-this-guide.md"
+!INCLUDE "./content/common/about-this-guide.md"
 -->
 
 <!-- if you want to use a custom about page, use the following relative link -->
