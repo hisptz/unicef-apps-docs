@@ -65,13 +65,15 @@ currently active intervention.
  a group the color of the icon of the privilege will change to notify that the
  particular group has been access to the intervention.
 
-![Access sharing privilege setting settings across user groups](resource/images/image55.png)
+![Access sharing privilege setting settings across user groups](resources/images/image55.png)
 
 > **CAUTION**
 >
 > Sharing settings from 2.28 going back is only implemented on the
 interface, access control is not strictly enforced, it is for simplicity in
 management of BNA Interventions only through the datastore.
+
+
 > **NOTE**
 >
 >User groups appearing on the access sharing list should exist in the user
@@ -116,7 +118,7 @@ App Management in the DHIS2 global menu to install it.
 
 ![ BNA widget in DHIS2 App store](resources/images/image47.png)
 
-![Installing BNA widget in DHIS2](resources/Images/image59.png)
+![Installing BNA widget in DHIS2](resources/images/image59.png)
 
 
 ### Setting up Widgets

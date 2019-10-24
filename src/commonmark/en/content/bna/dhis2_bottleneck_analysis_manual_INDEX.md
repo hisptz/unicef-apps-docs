@@ -20,11 +20,13 @@ logo: resources/images/image17.png
 !INCLUDE "content/bna/bna-app-architecture.md", 1
 !INCLUDE "content/bna/navigating-the-bna-app.md", 1
 !INCLUDE "content/bna/bna-analysis-and-interpretation.md", 1
-!INCLUDE "content/bna/bna-app-maintenance.md", 1
 !INCLUDE "content/bna/visualization-operations.md", 1
 
 # Configuration
 !INCLUDE "content/bna/bna-app-installation.md",1
+!INCLUDE "content/bna/bna-app-maintenance.md", 1
+
+# Implementation
 !INCLUDE "content/bna/guide-to-bna-app-implementation.md", 1
 !INCLUDE "content/bna/planning-and-organising.md", 1
 !INCLUDE "content/bna/adopting-the-use-of-the-bna-app.md", 1
