@@ -12,7 +12,7 @@ logo: resources/images/image17.png
 ---
 <!--DHIS2-SECTION-ID:index-->
 
-!INCLUDE "../../../common/about-this-guide.md"
+!INCLUDE "../common/about-this-guide.md"
 
 # Introduction and Usage
 
