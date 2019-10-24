@@ -40,7 +40,7 @@ name of the children organization level and the scorecard of the
 particular organization unit will appear under the row of that
 organization.
 
-![Drill down  analysis by orgunit](resources/images/image11.png)
+![Drill down  analysis by orgunit](./resources/images/image11.png)
 
 ### Drill down analysis by Data
 
@@ -148,4 +148,3 @@ periods from the list of available periods.
 ![ Extended relative periods](resources/images/image3.png)
 
 -----
-
