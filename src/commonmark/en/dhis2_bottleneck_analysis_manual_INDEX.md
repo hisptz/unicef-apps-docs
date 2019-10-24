@@ -17,7 +17,7 @@ logo: resources/images/image17.png
 -->
 
 <!-- if you want to use a custom about page, use the following relative link -->
-!INCLUDE "content/common/about-this-guide.md"
+!INCLUDE "./content/common/about-this-guide.md"
 
 
 # Introduction and Usage
@@ -31,6 +31,7 @@ logo: resources/images/image17.png
 
 # Configuration
 
+!INCLUDE "content/bna/bna-app-installation.md",1
 !INCLUDE "content/bna/guide-to-bna-app-implementation.md", 1
 !INCLUDE "content/bna/planning-and-organising.md", 1
 !INCLUDE "content/bna/adopting-the-use-of-the-bna-app.md", 1

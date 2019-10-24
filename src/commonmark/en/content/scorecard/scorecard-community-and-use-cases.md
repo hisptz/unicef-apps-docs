@@ -17,19 +17,14 @@ Scorecard development and implementation is a DHIS2 Community driven
 development and implementation initiative comprising of collaborative
 support of developers, implementers and translators from HISP Nodes,
 Governments and Organizations using DHIS2. The best way to join the
-DHIS2 Community is to sign up for the mailing lists.
+DHIS2 Community is to sign up on the community of Practice.
 
 
 <!-- PALD: this needs to be updated  -->
-1.  Start by creating a user account at
-    [Launchpad](https://launchpad.net/dhis2).
-2.  If you are interested in the usage, setup or implementation of
-    Scorecard you can sign up for the [user mailing list](https://launchpad.net/~dhis2-users).
-3.  If you have questions about or want to follow the development
-    process you can sign up for the [developer mailing list](https://launchpad.net/~dhis2-devs).
-4.  If you want to participate in writing documentation signing up for
-    the [documenter mailing list](https://github.com/dhis2/dhis2docs) would
-    be useful.
+1.  If you are interested in the usage, setup or implementation of
+    Scorecard you can sign up for [Dhis2 Jira](https://jira.dhis2.org/).
+2.  If you have questions about or want to follow the development
+    process you can sign up for the [Dhis2 Community of Practice](https://community.dhis2.org/).
 
 Don't hesitate to get in touch if you are interested in using
 Interactive scorecard for your organisation or government. We can be
@@ -40,6 +35,7 @@ mailing lists as described above.
 Email
 
   - HISP Tanzania <info@hisptanzania.org>
+  - HISP Uganda <info@hispuganda.org>
   - DHIS2 - <post@dhis2.org>
   - DHIS2 Academies - <post@dhis2.org>
   - The DHIS2 Online Academy - <onlineacademy@dhis2.org>
@@ -264,4 +260,3 @@ also aimed to facilitate health facilities to review their performance
 within the quality improvement framework.
 
 ![Ugandan RMNCAH Scorecard](resources/images/image30.png)
-
