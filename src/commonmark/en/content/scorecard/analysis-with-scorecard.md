@@ -146,5 +146,3 @@ from the period type list. You can then select the extended relative
 periods from the list of available periods.
 
 ![ Extended relative periods](resources/images/image3.png)
-
------
