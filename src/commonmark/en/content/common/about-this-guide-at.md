@@ -1,11 +1,13 @@
 # About this guide
+
 <!--DHIS2-SECTION-ID:about_this_guide_-->
+
 This guide is meant to assist all users of the action tracker app to plan and
 implement the application within the existing HIS framework of either Ministry
 of Health or individual organisations.
 
-This guide is also tailored for the **LINKED** \> Action Tracker app that is fully
-**DEPENDENT** \> on the Bottleneck analysis and the Scorecard applications.
+This guide is also tailored for the **LINKED** Action Tracker app that is fully
+**DEPENDENT** on the Bottleneck analysis and the Scorecard applications.
 
 While the guide strives to be complete, there may be certain functionalities
 topics which have been omitted or which have yet to be documented. This section
@@ -13,8 +15,8 @@ topics which have been omitted or which have yet to be documented. This section
 
 The Action Tracker App is a browser-based application. In many cases, screenshots
  have been included for enhanced clarity. Shortcuts to various functionalities
-are displayed such as **Data element** \> **Data element group**. The
-"\>" symbol indicates that you should click **Data element** and then
+are displayed such as **Data element** ">" **Data element group**. The
+">" symbol indicates that you should click **Data element** and then
 click **Data element group** in the user interface.
 
 
@@ -51,14 +53,8 @@ conventions used in the document are explained below.
 Program listings usually contain some type of computer code.
 They will be displayed with a shaded background and a different font.
 
-`Commands will be displayed in bold text, and represent a command which
-would need to be executed on the operating system or database.`
+Commands will be displayed in bold text, and represent a command which
+would need to be executed on the operating system or database.
 
 Links to external web sites or cross references will be displayed in
 blue text, and underlined like [this.](http://www.dhis2.org).
-
-<!--
-Bibliographic references will displayed in square brackets like this
-Store2007. A full reference can be found in the bibliography contained
-at the end of this document.
--->
