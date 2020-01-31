@@ -12,22 +12,15 @@ logo: resources/images/image1.png
 ---
 <!--DHIS2-SECTION-ID:index-->
 
-<!-- if you want to take the about page from the main repo, use the following relative link
-!INCLUDE "./content/common/about-this-guide.md"
--->
-
-<!-- if you want to use a custom about page, use the following relative link -->
 !INCLUDE "./content/common/about-this-guide-at.md"
 
-<!--
-# Introduction and Usage
+# Dashboard and Demo Server
 
-!INCLUDE "content/bna/bottleneck-analysis-dashboard-and-demo-server.md", 1
+!INCLUDE "content/action_tracker/at-app-introduction.md", 1
+!INCLUDE "content/action_tracker/at-app-browsing.md", 1
 
+# Navigation and browsing
+!INCLUDE "content/action_tracker/at-app-data-entry.md", 1
 
-# Configuration
-!INCLUDE "content/bna/bna-app-installation.md",1
-
-
-# Implementation
-!INCLUDE "content/bna/guide-to-bna-app-implementation.md", 1-->
+# Maintenance and Support
+!INCLUDE "content/action_tracker/at-app-maintenance.md", 1

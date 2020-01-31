@@ -24,7 +24,7 @@ unit and period filters for other national users who are not
 administrators, regional, and district users to make changes on
 organization unit and period filters.
 
-![Options for administrative users to configure indicators, organization unit, period, and legends in BNA application](resources/images/image33.png)
+![Options for administrative users to configure indicators, organization unit, period, and legends in BNA application](resources/images/image33.png){width=50%}
 
 
 ## Analyzing bottleneck Charts
