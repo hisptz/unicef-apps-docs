@@ -76,9 +76,9 @@ to exchange presentation of indicators and sublevels. To transpose the
 table, you have to click an icon just before the download icon below the
 sublevel analysis table.
 
-![Sub-Level Analysis Layout Switch.](resources/images/image2.png)
+![Sub-Level analysis layout Switch.](resources/images/image2.png){width=50%}
 
-![Changing Layout of Sublevel analysis table](resources/images/image30.png)
+![Changing Layout of Sub-level analysis table](resources/images/image30.png)
 
 ## Additional Indicator dictionary
 
@@ -87,7 +87,7 @@ additional information on the indicators used in the definition and
 creation of the BNA chart. To access the indicator dictionary, click on
 the (i) icon in the sub-level analysis table.
 
-![Sub-Level Analysis Indicator dictionary](resources/images/image15.png)
+![Sub-Level Analysis Indicator dictionary](resources/images/image15.png){width=50%}
 
 ![Sub-Level Analysis Indicator dictionary](resources/images/image7.png)
 
@@ -97,7 +97,7 @@ calculation details, and corresponding data elements. You can also click
 on the “Export” button to export the indicator dictionary to excel. To
 switch back to the table view, click on the Table icon.
 
-![Sub-Level Analysis table view](resources/images/image16.png)
+![Sub-Level Analysis table view](resources/images/image16.png){width=50%}
 
 
 

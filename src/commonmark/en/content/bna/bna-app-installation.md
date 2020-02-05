@@ -23,7 +23,7 @@ DHIS2 running version 2.28 and above
 
 Step 1:  Access app management from the apps selection menu
 
-![Apps Management on search menu](resources/images/image46.png)
+![Apps Management on search menu](resources/images/image005.png){width=50%}
 
 Step 2: Once Apps management is open:
 Go to the apps store panel and the list of online applications for installation
@@ -31,7 +31,7 @@ will show up.
 Install the “Interactive Bottleneck Analysis” app and the “Bottleneck analysis”
 app by clicking on install underneath the app name.
 
-![App store listing with bottleneck and root cause app](resources/images/image47.png)
+![App store listing with bottleneck and root cause app](resources/images/image47.png){width=70%}
 
 When done installing, the BNA App will be accessible from the search menu.
 Note: This step is only successful if you have an internet connection and your
@@ -50,14 +50,14 @@ zip file. During installation, both the Root Cause and Interactive apps have to
 be downloaded and installed.
 
 
-![Apps listing in DHIS2 App Store](resources/images/image48.png)
+![Apps listing in DHIS2 App Store](resources/images/Image48.png){width=50%}
 
 Step 1: Downloading  a compatible version from the app store
 Once on the DHIS2 App store locate the BNA applications and select them to get
 the list of available versions of the app. Select the latest version of the app
 and download a zip file of the latest build into your local hard disk.
 
-![List of supported version for bottleneck app in DHIS2](resources/images/image49.png)
+![List of supported version for bottleneck app in DHIS2](resources/images/Image49.png){width=70%}
 
 > **NOTE**
 >
@@ -68,17 +68,17 @@ where “x” is version number of your build.
 
 Step 2:  Access app management from the apps selection menu
 
-![Apps Management on search menu](resources/images/image46.png)
+![Apps Management on search menu](resources/images/Image46.png){width=70%}
 
 Open Apps management to see and manage list of installed applications on DHIS2,
 bottleneck app can be installed by clicking the upload icon.
 
-![The DHIS2 upload icon](resources/images/image50.png)
+![The DHIS2 upload icon](resources/images/image50.png){width=5%}
 
 Once installed the bottleneck analysis application will be enlisted under
 standard apps
 
-![Bottleneck App listed after installation in DHIS2](resources/images/image51.png)
+![Bottleneck App listed after installation in DHIS2](resources/images/image51.png){width=70%}
 
 When done installing, the bottleneck app will be accessible from the search menu.
 If the bottleneck analysis app does not appear on your menu, it could be a result

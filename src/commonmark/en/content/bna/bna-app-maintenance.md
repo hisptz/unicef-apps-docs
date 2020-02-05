@@ -1,78 +1,184 @@
 # BNA App Maintenance
 
-## Maintaining Interventions
+## Interventions and Indicators Configuration
 
-BNA Application allows users with administrative privileges to create, rename,
-organize (laying out), or delete interventions.
+If no Intervention created and assigned to the dashboard, BNA App loads with
+predefined interventions, with predefined indicators named “indicator 1” for
+each determinant. Sub-level analysis and root cause analysis will be empty.
 
-### Creating an Intervention
+Administrative users can create Interventions and assign them to the dashboard
+for other users to access depending on the sharing access granted to them.
 
-As an administrator, you can create new interventions in the BNA Application and
- save them. This is applicable when there is a new intervention to be added in
- the BNA application. Any attempt to create an intervention with the same name
- as any existing intervention, administrator will be given an error message about
-the existence of the intervention name and it will refuse creating it.  To create
-an intervention, the following procedures are to be followed:
-1. Click the dark green plus sign below the banner of the system.
-2. Click the plus sign displayed below the dark green plus icon you have
-previously clicked.
-3. Type the name of the intervention in the input section and click ‘Save’
-button to complete creating an intervention or cancel to revert.
+### Creating Intervention
 
-![Steps to create Interventions in the BNA App](resources/images/image52.png)
+To create new intervention, administrative user can click on the blue plus sign
+button just below list of interventions on the dashboard. Interventions are the
+ones holding determinants which holds indicators.
 
-### Searching for Interventions
+![](resources/images/image009.png){width=5%}
 
-Once the BNA App is open the list of configured interventions will be shown on
-the pill buttons with the active one highlighted in color green. The user can
-navigate to the intervention they prefer, however for administrative users who
-set up the interventions of the LGA are represented with an area to search for
-interventions found at the leftmost top area of their screens.
+Then have to write the intervention name(eg. BEmOnC) and click create button to
+save the intervention.
 
-![Searching for an intervention so as to start analysis for the intervention](resources/images/image53.png)
+![](resources/images/image010.png){width=50%}
 
-### Renaming an Intervention
 
-BNA Application allows users with administrative privileges to rename the
-existing interventions in the system with the new names. Renaming of intervention
- is important especially when program decided to change the intervention name
- while maintaining all the indicators and configurations associated with it.
- To rename intervention in the BNA App, you do the following:
-1. Go to search area alongside interventions to access the list of interventions
- in the system.
-2. From listed interventions below search box, go to specific intervention and
-click on the editing icon.
-3. Replace the existing name with the new one.
-4. Click the Save button to save changes.
+**Note:** Attempting creating an intervention that is existing, will  be denied
+by the system and presented a message that the intervention is already existing.
 
-![Renaming Interventions](resources/images/image54.png)
+![](resources/images/image011.png){width=25%}
 
-### Access sharing/control
+### Interventions and Indicators configuration
 
-An administrative user of BNA App can choose to share their interventions,
-its very easy to share the interventions that they have configured.
-The BNA App gives the administrator an ability to set sharing who has access
-to the configured interventions and the privilege (view only or edit) to the
-particular group of people that they share with.
-Sharing of the configured intervention can be done through the share icon found
-just below the list of interventions and next to the name of the existing
-currently active intervention.
+Administrative users can configure interventions and indicators by clicking the
+Settings button just below the intervention list on the dashboard to get the
+setup page.
 
- Clicking the icon gives a list of user groups that the user can share interventions
- with by clicking an image representing a privilege for a group of interest.
- The administrator is not limited to using only user groups but could also share
- the interventions with individual users. When a privilege has been chosen for
- a group the color of the icon of the privilege will change to notify that the
- particular group has been access to the intervention.
+![](resources/images/image012.png){width=50%}
 
-![Access sharing privilege setting settings across user groups](resources/images/image55.png)
+Administrative needs to to share intervention for other users to access, set
+the period for BNA presentation and analysis, decision to use indicator short
+names as display names in the BNA chart, and legends for specified cut-off
+points for indicator performance. Administrative users can change the colour
+of each determinant group indicator(s).
+
+![](resources/images/image013.png){width=50%}
+
+**Note:** Bar charts of every indicator attached to a particular determinant
+group will inherit the colour of that determinant group.
+
+To add indicators into a determinant group, just click on the plus sign button
+to get a list of indicators from indicators or functions to add to the
+determinant group for BNA chart configuration.
+
+
+### Adding Indicators and Configuring legend-sets
+
+Administrative users can add or remove indicators to and from determinants
+groups by interacting through interface. To add an indicator to a determinant
+group, users can click on the plus sign button to get a list of indicators or
+functions to select and add.
+
+Administrative users can configure cut-off points for poor, average, and good
+performance for each indicator. Cut-off points are used in sub-level analysis
+visualization.
+
+![](resources/images/image014.png){width=70%}
+
+### Access control and Sharing interventions
+
+Interventions must be shared for other users and user groups to access.
+Interventions work in the same way as DHIS 2 dashboards. If not shared, only
+users who created them can access and manage. There are three sharing options
+that administrative users can share opt to share intervention.
+
+1. **Can View and edit:** With this option, any user shared intervention with
+this privilege can access and edit it, including changing settings of items in
+it. This access should only be given to administrative users only.
+2. **Can view only:** Administrative users should select this option to share
+intervention with users who are supposed to access BNA chart and sub-level
+analysis and enter root causes. For BNA application context, view only is
+granted to district, regional and national users who are not supposed to make
+any changes to the settings.
+3. **No Access:** If you don’t want to share access to anyone.
+
+![](resources/images/image015.png){width=50%}
+
+### Setting Organization Unit and Period
+
+Administrative user can set organization unit and period and save changes for
+BNA charts to load with. If you set a particular district, all users will get
+the BNA charts loading for a selected district. Although users can filter the
+chart with their preferred organization unit and period, it may may confuse
+them. So it is important administrative user to set ‘user organization unit’
+as default period so that every user can have BNA chart for their levels
+displayed. It is good practice to assign user organization unit so that every
+user can access BNA chart and sub-level analysis relevant to their levels.
+
+![](resources/images/image016.png){width=50%}
+
+### Saving Configurations
+
+After the administrator is satisfied with the filters that they have applied
+for an intervention they have to save these configurations they have made for
+the interventions. To save the configurations they simply have to click the
+“Save Changes” button.
+
+![](resources/images/image017.png){width=70%}
+
+ **Note:** Editing and saving configurations of a shared intervention will
+ reflect the new configurations to the district end user with whom the
+ intervention has been shared with.
+
+## Standard data analytics
+
+Data which is entered into DHIS2 must first be processed with the DHIS2
+“analytics” engine. This means that data is not immediately available in the
+analytics resources (such as the BNA chart, sub-org unit  level analysis tables,  
+  pivot tables, data visualizer, GIS or  report) after it has been entered. If
+  scheduling is active, the analytics process will run automatically at midnight
+  each day. After that, new data which was entered since the last time the
+  analytics process ran, will become visible.
+
+You can trigger the analytics process manually by selecting
+**Reports->Analytics** from the main menu and pressing the “Start export” button.
+Note, the process may take a significant amount of time depending on the amount
+of data in your database.
+
+## Functions data analytics
+
+Functions selections are extended analytics calculations supporting a more
+open-ended logic of computation, such as logical operations, predictors and
+other complex analytics use cases. To create functions to work with BNA App,
+download function maintenance application from this link: [https://play.dhis2.org/appstore/app/dXX2Fk6jwCX](https://play.dhis2.org/appstore/app/dXX2Fk6jwCX). Functions makes
+use of pure good old JavaScript(vanilla JavaScript) logic to do calculations
+purely on the browser, without the need for a server. This is accomplished by
+execution of JavaScript codes that expects period and data selections and return
+standard DHIS2 analytics results. Functions selections are extended analytics
+calculations supporting a more open-ended logic of computation, such as logical
+operations, predictors and other complex analytics use cases.
+
+## Maintenance of Indicator functions
+
+Functions comprises of three key building blocks:
+
+4. **Input/Selection parameters:** Function expects standard DHIS2 periods and
+organization units selections.
+5. **Computation logic:** This is an open-ended workspace for writing of
+calculation logic to work on given period and organization unit selections,
+computation logic is usually classified into rules dimensions, thus allowing
+one function to support different use cases by defining multiple rules that
+will control the computation logic. Possibilities are limitless, among major
+operations done includes.
+    1. Fetching data from aggregate and event analytics and modifying results
+    with custom logic, and reformat the results back in standard analytics format.
+    2. Fetching data from existing sql Views, performing custom logics and
+    formatting results in standard analytics format.
+    3. Fetching data from other DHIS2 API endpoints(such as data-value and
+      events api) and other data sources(including external sources), performing
+      custom logic and formatting results in standard analytics format. 
+6. **Output/Returned analytics**: This is the end-result output from functions,
+formatted in 	standard analytics format, to allow compatibility with standard
+DHIS2 analytics applications. To support open-ended support for any level of
+complexity, function maintenance application has been developed, to allow any
+developer with basic JavaScript knowledge to quickly develop custom calculations
+either not supported natively by DHIS2 or to allow developers to work-around
+limitations or miscalculations from standard analytics.
+
+Main requirements for developing functions includes:
+*   Basic web programming knowledge with JavaScript (jQuery is an advantage).
+*   Understanding of DHIS2 Web API and analytics.
+*   A working installation of Functions maintenance application. When a function
+maintenance application is installed for the first time, it creates five standard
+functions  with generic use cases as example functions to allow reuse of codes to
+create other functions. The auto created functions will also be listed in the
+functions selection list.
 
 > **CAUTION**
 >
 > Sharing settings from 2.28 going back is only implemented on the
 interface, access control is not strictly enforced, it is for simplicity in
 management of BNA Interventions only through the datastore.
-
 
 > **NOTE**
 >
@@ -87,7 +193,7 @@ share icon there is a bookmark icon. Clicking the icon will bookmark the dashboa
 that you are currently viewing. The name of the dashboard you are currently viewing
 is also displayed on this control area.
 
-![An intervention that has been bookmarked](resources/images/image56.png)
+![An intervention that has been bookmarked](resources/images/image56.png){width=70%}
 
 ### Deleting an Intervention
 
@@ -103,9 +209,9 @@ adding new intervention icon and
 3. Select an intervention from the list, and click “DELETE” button on the far
 right side of the App and confirming deletion by clicking ‘yes’ option.
 
-![Deleting an intervention](resources/images/image57.png)
+![Deleting an intervention](resources/images/image57.png){width=25%}
 
-![Confirmation of deleting an intervention](resources/images/image58.png)
+![Confirmation of deleting an intervention](resources/images/image58.png){width=25%}
 
 ## BNA Widgets setup
 
@@ -116,9 +222,9 @@ Widget is a separate application that is installed in DHIS2 instance to work wit
 BNA Application. In case you don't find it in your DHIS2 instance, go to
 App Management in the DHIS2 global menu to install it.
 
-![ BNA widget in DHIS2 App store](resources/images/image47.png)
+![ BNA widget in DHIS2 App store](resources/images/image47.png){width=70%}
 
-![Installing BNA widget in DHIS2](resources/images/image59.png)
+![Installing BNA widget in DHIS2](resources/images/image59.png){width=70%}
 
 
 ### Setting up Widgets
@@ -160,16 +266,16 @@ details options. Once on the clear browsing data or recent history, tick
 clear all cached files, cookies and locally stored data by bottleneck
 .        
 
- ![Menu icons in Google chrome and firefox  ](resources/images/image39.png)
+ ![Menu icons in Google chrome and firefox  ](resources/images/image39.png){width=10%}
 
 > **NOTE**
 >
 > These will also clear all cache information
 and cookies from other websites you visited in your browser.
 
-![Google chrome interface for clearing browser cache ](resources/images/image45.png)
+![Google chrome interface for clearing browser cache ](resources/images/image45.png){width=70%}
 
-![Mozilla firefox interface for clearing browser cache ](resources/images/image32.png)
+![Mozilla firefox interface for clearing browser cache ](resources/images/image32.png){width=70%}
 
 ## BNA App Error Messages
 
