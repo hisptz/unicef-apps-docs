@@ -53,3 +53,8 @@ would need to be executed on the operating system or database.
 
 Links to external web sites or cross references will be displayed in
 blue text, and underlined like [this.](http://www.dhis2.org)
+
+## Intended  Audience
+This guide is intended to be used by users who can have administrative privilege
+to do system setup, and who have are capable of doing some technical setup of
+interventions, indicators and sharing of objects related to BNA app.
