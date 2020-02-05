@@ -15,7 +15,7 @@ is available
 [here](https://play.dhis2.org/appstore/app/x7DbGPFXziA) for
 download.  It is currently compatible with DHIS2 2.28 and above.   
 
-![Standard layout of the BNA App dashboard](resources/images/image31.png)
+![Standard layout of the BNA App dashboard](resources/images/image001.png)
 
 ## Advantages of the BNA App
 
@@ -101,4 +101,3 @@ calculations. To use the app, find it
 [here](https://www.google.com/url?q=https://play.dhis2.org/appstore/app/jofgGmsCFr7&sa=D&ust=1571141929532000)
 
 ![Function maintenance app](resources/images/image27.png)
-

@@ -6,7 +6,7 @@ installation has issues, refer to the installation instructions (Chapter
 2) of this documentation for further guidance, or contact the
 DHIS2 administrator for your instance.
 
-![bottleneck analysis application on the DHIS2 app menu](resources/images/image34.png)
+![bottleneck analysis application on the DHIS2 app menu](resources/images/image34.png){width=50%}
 
 ## Starting an Intervention
 
@@ -17,7 +17,7 @@ button will display for the user to create and add a new intervention.
 The new intervention dashboard will display blank templates pending data
 selection and filtering.                        
 
-![Bottleneck analysis dashboard with blank chart and table templates](resources/images/image6.png)
+![Bottleneck analysis dashboard with blank chart and table templates](resources/images/image003.png)
 
 > **NOTE**
 >
@@ -43,7 +43,7 @@ dimension groups. When a user selects an indicator or a function from
 the list of available data items the selected data items will be
 populated to the active data dimension group.
 
-![Selection of Indicators from Indicator group or Functions to data dimensions](resources/images/image4.png){ width=80% } ![](resources/images/image43.png)
+![Selection of Indicators from Indicator group or Functions to data dimensions](resources/images/image004.png){ width=70% } ![](resources/images/image43.png)
 
 > **NOTE**
 >
@@ -62,9 +62,9 @@ with yellow and green showing medium and good performance respectively.
 To manage the Legend, administrator must click Legend tab in Global
 filter, then select the specific indicator to be set the legends.
 
-![Managing Legends for Indicators in the BNA App  ](resources/images/image35.png)
+![Managing Legends for Indicators in the BNA App  ](resources/images/image013.png){width=50%}
 
-![Adding color classes and  setting cut-off points in Legends management in BNA App](resources/images/image23.png)
+![Adding color classes and  setting cut-off points in Legends management in BNA App](resources/images/image014.png){width=80%}
 
 > **NOTE**
 >
@@ -80,7 +80,7 @@ user must click update button displayed in the working window and save
 changes for persistence, or just close the message in case of rejecting
 the changes.
 
-![Modifications made on the legend set management will require the  administrator to save the changes](resources/images/image9.png)
+![Modifications made on the legend set management will require the  administrator to save the changes](resources/images/image017.png)
 
 ### Period selection
 
@@ -115,7 +115,7 @@ The BNA App allows the user to make organization unit selections based
 on groups, levels and user organization units, these are known as
 selection modes.
 
-![Selection of orgunits](resources/images/image25.png){width=50%}
+![Selection of orgunits](resources/images/image016.png){width=50%}
 
 #### Selection by levels and groups
 
