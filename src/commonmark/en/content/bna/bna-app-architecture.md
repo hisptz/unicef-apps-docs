@@ -71,7 +71,7 @@ selections, and legend configurations. However, all users except
 administrators have access to Period Organization unit filters only.
 More details on these operations can be found on chapter 4 section 4.
 
-![Global filter controls in one of the selected Interventions in the BNA App](resources/images/image22.png)
+![Global filter controls in one of the selected Interventions in the BNA App](resources/images/image002.png)
 
 ## Intervention items
 
