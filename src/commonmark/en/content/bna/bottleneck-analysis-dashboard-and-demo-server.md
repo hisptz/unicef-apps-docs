@@ -17,20 +17,6 @@ download.  It is currently compatible with DHIS2 2.28 and above.
 
 ![Standard layout of the BNA App dashboard](resources/images/image001.png)
 
-## Advantages of the BNA App
-
-The bottleneck analysis and planning approach contribute to existing
-national and sub-national planning and monitoring cycles by offering a
-strategic, rapid and systematic approach to analyzing key health systems
-barriers to reaching intervention coverage targets.
-
-This approach can help save time and increase the efficiency of
-resources available by identifying where the greatest pockets of unmet
-needs or poor service outcomes exist and, in those places, identifying
-key bottlenecks, prioritizing what should be addressed immediately, what
-should be deferred (prioritization of most effective actions) and
-ensuring that resources are programmed to tackle priority bottlenecks
-with evidence-informed solutions.
 
 ## Rationale for the BNA App
 
@@ -54,6 +40,22 @@ actionable manner. This visualization is made possible by using the
 bottleneck analysis model integrated with the causality and tracking
 actions/solutions to effect interventions.
 
+
+## Advantages of the BNA App
+
+The bottleneck analysis and planning approach contribute to existing
+national and sub-national planning and monitoring cycles by offering a
+strategic, rapid and systematic approach to analyzing key health systems
+barriers to reaching intervention coverage targets.
+
+This approach can help save time and increase the efficiency of
+resources available by identifying where the greatest pockets of unmet
+needs or poor service outcomes exist and, in those places, identifying
+key bottlenecks, prioritizing what should be addressed immediately, what
+should be deferred (prioritization of most effective actions) and
+ensuring that resources are programmed to tackle priority bottlenecks
+with evidence-informed solutions.
+
 ## About demo server and the BNA App meta-data
 
 The BNA demo server is setup to support both development, testing,
@@ -67,7 +69,6 @@ current demo server can be accessed on :
 The server is hosted in the cloud and can be accessed on the
 internet via a browser from anywhere as long as there is availability
 of internet.
-
 
 ### Using DHIS2 demo server                                           
 

@@ -3,7 +3,7 @@ title: 'DHIS 2 manual for the Action Tracker App'
 author: 'BNA App team'
 date:
 year: 2020
-month: January
+month: July
 keywords: [DHIS2, HISP]
 commit:
 version: 1.0.0-rc.0
@@ -20,7 +20,7 @@ logo: resources/images/image1.png
 !INCLUDE "content/action_tracker/at-app-introduction.md", 1
 !INCLUDE "content/action_tracker/at-app-browsing.md", 1
 
-# Navigation and browsing
+# Data entry and analysis
 !INCLUDE "content/action_tracker/at-app-data-entry.md", 1
 
 # Maintenance and Support
