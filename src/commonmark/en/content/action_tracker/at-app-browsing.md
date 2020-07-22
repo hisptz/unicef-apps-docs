@@ -12,6 +12,7 @@ Click on the Action Tracker to load the Action Tracker App and once loaded, the
 user can select the intervention, period, organization unit or modify legend
 accordingly;
 
+
 ![Figure 1.5.-B: Loaded Action Tracker App](resources/images/image05.png){width=70%}
 
 ### 1.5.1 Selection of an Intervention

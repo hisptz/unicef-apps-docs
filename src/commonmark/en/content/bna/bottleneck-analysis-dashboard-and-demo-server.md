@@ -64,26 +64,29 @@ server. Additionally, the demo server is also setup to host both demo
 data and metadata across various interventions to give chance to users
 of the system to explore and learn system features and functions. The
 current demo server can be accessed on :
-[https://scorecard-dev.dhis2.org/demo/](https://www.google.com/url?q=https://scorecard-dev.dhis2.org/demo/&sa=D&ust=1571141929529000)
+[https://hisp.apps.dhis2.org/training/](https://www.google.com/url?q=https://hisp.apps.dhis2.org/training/&sa=D&ust=1571141929529000)
 
 The server is hosted in the cloud and can be accessed on the
 internet via a browser from anywhere as long as there is availability
 of internet.
 
-### Using DHIS2 demo server                                           
+### Accessing the BNA App                                           
 
-To use the BNA app demo server you will have to login into the server,
-you can use the login credentials that are displayed on the login page
-to login and explore the amazing features of the BNA app.
+This user guide is documented using the linked BNA App which is available on the
+[DHIS2 demo server](https://hisp.apps.dhis2.org/training/). The BNA app is set
+up in the DHIS2 Demo server and with linkages to the Scorecard, Root Cause
+Analysis and Action Tracker Apps. The current demo server can be accessed
+on: [https://hisp.apps.dhis2.org/training/](https://hisp.apps.dhis2.org/training/)
+with the username and password provided on the login page..
 
 ![Logging and accessing the BNA demo server ](resources/images/image1.png)
 
-### Bottleneck & root cause analysis meta-data
+### Indicator Management
 
-The BNA app borrows its meta-data from the general DHIS2 data source and
-uses this to create a data store for ease of analysis. Bottleneck
-analysis metadata such as indicators and indicator groups are managed
-using the DHIS2 Indicator maintenance App.
+The BNA app borrows its meta-data from the general DHIS2 data source and uses
+this to create a data store for ease of analysis. Bottleneck analysis metadata
+such as indicators and indicator groups are managed using the DHIS2 Indicator
+maintenance App.
 
 ![Indicator maintenance App](resources/images/image28.png)
 

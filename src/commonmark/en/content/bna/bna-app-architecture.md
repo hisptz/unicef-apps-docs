@@ -26,22 +26,20 @@ getting lost in the middle of performing their usual operations.
 
 ## Layout of the BNA App
 
-The BNA App is flexible to adapt to any number of user journeys
-depending on country’s implementations. The primary two users are the
-Administrator who can manage the interventions,  the district users who
-analyze the bottlenecks.
+The BNA App is flexible to adapt to any number of user journeys depending on the
+country's implementations. The primary two users are:
 
-The administrator can manage interventions with operations such as
-creating interventions, applying data filters for interventions, making
-legend definitions and many more administrative operations.
 
-The district users who analyze the bottlenecks can switch through their
-interventions, bookmark their favorite interventions and perform root
-cause analysis through the root cause analysis widget.
+1. **_Administrators:_** can manage interventions with operations such as creating
+interventions, applying data filters for interventions, making legend definitions
+and many more administrative operations.
+2. **_District users: _** analyzing the bottlenecks can switch through their
+interventions, bookmark their favorite interventions and perform root cause
+analysis through the root cause analysis widget.
 
-Other bottleneck App users can be national, and regional/counties users
-users who can only analyses bottleneck, sub-nation analysis, route
-causes for each bottleneck and their solutions.
+Other bottleneck App users can be national, and regional/counties  users who
+can only analyse bottlenecks, sub-nation analysis, route causes for each
+bottleneck and their solutions.
 
 ## Global DHIS2 Menu
 
