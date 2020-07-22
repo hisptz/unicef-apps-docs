@@ -17,20 +17,6 @@ download.  It is currently compatible with DHIS2 2.28 and above.
 
 ![Standard layout of the BNA App dashboard](resources/images/image001.png)
 
-## Advantages of the BNA App
-
-The bottleneck analysis and planning approach contribute to existing
-national and sub-national planning and monitoring cycles by offering a
-strategic, rapid and systematic approach to analyzing key health systems
-barriers to reaching intervention coverage targets.
-
-This approach can help save time and increase the efficiency of
-resources available by identifying where the greatest pockets of unmet
-needs or poor service outcomes exist and, in those places, identifying
-key bottlenecks, prioritizing what should be addressed immediately, what
-should be deferred (prioritization of most effective actions) and
-ensuring that resources are programmed to tackle priority bottlenecks
-with evidence-informed solutions.
 
 ## Rationale for the BNA App
 
@@ -54,6 +40,22 @@ actionable manner. This visualization is made possible by using the
 bottleneck analysis model integrated with the causality and tracking
 actions/solutions to effect interventions.
 
+
+## Advantages of the BNA App
+
+The bottleneck analysis and planning approach contribute to existing
+national and sub-national planning and monitoring cycles by offering a
+strategic, rapid and systematic approach to analyzing key health systems
+barriers to reaching intervention coverage targets.
+
+This approach can help save time and increase the efficiency of
+resources available by identifying where the greatest pockets of unmet
+needs or poor service outcomes exist and, in those places, identifying
+key bottlenecks, prioritizing what should be addressed immediately, what
+should be deferred (prioritization of most effective actions) and
+ensuring that resources are programmed to tackle priority bottlenecks
+with evidence-informed solutions.
+
 ## About demo server and the BNA App meta-data
 
 The BNA demo server is setup to support both development, testing,
@@ -62,27 +64,29 @@ server. Additionally, the demo server is also setup to host both demo
 data and metadata across various interventions to give chance to users
 of the system to explore and learn system features and functions. The
 current demo server can be accessed on :
-[https://scorecard-dev.dhis2.org/demo/](https://www.google.com/url?q=https://scorecard-dev.dhis2.org/demo/&sa=D&ust=1571141929529000)
+[https://hisp.apps.dhis2.org/training/](https://www.google.com/url?q=https://hisp.apps.dhis2.org/training/&sa=D&ust=1571141929529000)
 
 The server is hosted in the cloud and can be accessed on the
 internet via a browser from anywhere as long as there is availability
 of internet.
 
+### Accessing the BNA App                                           
 
-### Using DHIS2 demo server                                           
-
-To use the BNA app demo server you will have to login into the server,
-you can use the login credentials that are displayed on the login page
-to login and explore the amazing features of the BNA app.
+This user guide is documented using the linked BNA App which is available on the
+[DHIS2 demo server](https://hisp.apps.dhis2.org/training/). The BNA app is set
+up in the DHIS2 Demo server and with linkages to the Scorecard, Root Cause
+Analysis and Action Tracker Apps. The current demo server can be accessed
+on: [https://hisp.apps.dhis2.org/training/](https://hisp.apps.dhis2.org/training/)
+with the username and password provided on the login page..
 
 ![Logging and accessing the BNA demo server ](resources/images/image1.png)
 
-### Bottleneck & root cause analysis meta-data
+### Indicator Management
 
-The BNA app borrows its meta-data from the general DHIS2 data source and
-uses this to create a data store for ease of analysis. Bottleneck
-analysis metadata such as indicators and indicator groups are managed
-using the DHIS2 Indicator maintenance App.
+The BNA app borrows its meta-data from the general DHIS2 data source and uses
+this to create a data store for ease of analysis. Bottleneck analysis metadata
+such as indicators and indicator groups are managed using the DHIS2 Indicator
+maintenance App.
 
 ![Indicator maintenance App](resources/images/image28.png)
 

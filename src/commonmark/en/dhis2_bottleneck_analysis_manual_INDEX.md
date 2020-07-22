@@ -1,13 +1,13 @@
 ---
 title: 'DHIS 2 manual for the Bottleneck Analysis App'
-author: 'BNA App team'
+author: 'BNA app team'
 date:
 year: 2020
-month: February
+month: July
 keywords: [DHIS2, HISP]
 commit:
-version: 1.1.1-rc.0
-applicable_txt: 'Applicable to version 1.1.1-rc.0'
+version: 1.2.2-rc.2
+applicable_txt: 'Applicable to version 1.2.2-rc.2'
 logo: resources/images/image17.png
 ---
 <!--DHIS2-SECTION-ID:index-->
