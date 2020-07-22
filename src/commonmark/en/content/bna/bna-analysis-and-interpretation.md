@@ -1,5 +1,78 @@
 # BNA Analysis and Interpretation
 
+
+Once created for the first time a blank BNA analysis chart will be displayed. The chart will be filled with data automatically as data is made available from linked datasets in the DHIS2 instance.
+
+For non-administrators (e.g. districts users) and administrators they will have options to access interventions configured and shared with them for viewing analysis charts. For each intervention shared to the users, users will be able to further select periods and organization units (locations) for which they want to view bottleneck analysis for.
+
+> **NOTE**
+> Users can only access interventions shared with them by the administrator(s) who configured the intervention.
+
+
+![Click on Search apps or Apps icon to access Apps searching option](resources/images/image_36.png)
+
+## Access intervention for analysis
+
+Search for Bottleneck Analysis application and click on it
+![Searching for the Bottleneck Analysis App on apps list or by typing full or part of app name “Bottleneck Analysis App”](resources/images/Imgsearch.png)
+
+Upon loading the BNA App, users will have access to available interventions and an option to search for more interventions which may not be displayed upon loading. Accessing the shared interventions is limited to the access level they are shared.
+
+![List of Interventions accessible to logged in user in the BNA App](resources/images/image40.png)
+
+![Bottleneck analysis chart of the intervention selected from figure](resources/images/image40_.png)
+
+## Selecting period for analysis
+
+After selecting intervention to analyze, the user can specify which period he/she wants to view analysis for. To access option for selecting period for analysis display, click on Period tab
+
+![Access options for period for analysis display](resources/images/image_p1.png)
+
+
+![Selecting options  for period for analysis display](resources/images/image_p2.png)
+
+## Organization units selection
+
+The BNA App allows the user to make organization unit selections based on groups, levels and user organization units, these are known as selection modes.
+
+![Accessing options for organization units selection](resources/images/image_g1.png)
+
+![Selection of organization units selection](resources/images/image_g2.png)
+
+
+### Selection by levels and groups
+
+From the list of Levels, under the input box that reads “Search Levels or groups”, users can then make their selections by clicking the desired levels to view the analysis on the BNA App.
+
+![Selection of org units by levels or groups](resources/images/image_g3.png)
+
+### Selection by user organization unit
+
+To the top of the selection by level there are buttons which are for selecting organization units relative to the user-assigned organization unit.  This gives flexibility for the users to view the data based on their assigned orgunits or suborgunits of their assigned orgunits.
+
+
+![Selection of org units by user orgunit](resources/images/image_g4.png)
+
+> **NOTE**
+> After completing selection of organization units, user must click on Update button to save changes
+
+> **NOTE**
+> Selections by user organization unit disables selection by organization unit tree. To disable selection by user organization unit simply click the active option (the one which appears with gray background) to inactivate it and enable selection by organization unit tree.
+
+> **NOTE**
+> Editing and saving configurations of a shared intervention will reflect the new configurations to the district end user with whom the intervention has been shared with.
+
+
+
+**4.4 Exporting/Downloading bottleneck analysis chart**
+
+To download the displayed bottleneck analysis chart user can choose from the three available download options (image, MS Excel or PDF
+
+![Bottleneck analysis chart download options](resources/images/image_g5.png)
+
+
+## Bottleneck analysis Interpretation
+
 Bottleneck analysis a systematic way to look at the main determinants of
 effective coverage for selected interventions to identify problem areas
 to purposely act on them. The Six coverage determinants, from supply to
@@ -103,50 +176,29 @@ switch back to the table view, click on the Table icon.
 
 ## Root Cause analysis
 
-After the district user has looked at the Bottleneck Analysis Chart and
-the Sublevel Analysis Chart and has identified the major bottlenecks,
-they are expected to proceed to the Root Cause Analysis Widget. In the
-root cause analysis widget they can document the Root causes and
-Solutions of determinants and indicators for the active intervention
-based on the period and organization unit filters applied.
+After the district user has looked at the Bottleneck Analysis Chart and the Sublevel Analysis Chart and has identified the major bottlenecks, they are expected to proceed to the Root Cause Analysis Widget. In the root cause analysis widget they can document the Root causes and Solutions of determinants and indicators for the active intervention based on the period and organization unit filters applied.
 
-At first glance the widget will come up empty and the user can create a
-new empty row by simply clicking the “Add New” button that is available
-right under the widget. The new empty row comes pre-populated with the
-row counter, Intervention Name, Period Name and Organization Unit Name.
+At first glance the widget will come up empty and the user can create a new empty row by simply clicking the “Add New” button that is available right under the widget. The new empty row comes pre-populated with the row counter, Intervention Name, Period Name and Organization Unit Name.
 
-The user can select determinants and indicators from the dropdown lists
-and use the free texts to document the root cause and solutions. Once
-done there is a tick icon on the solution column, the user will click
-this icon to save the data.
-
-![Adding root causes and suggested solutions for identified bottlenecks in the bottleneck application](resources/images/image14.png)
+![Creating new root cause for analysis](resources/images/image_r1.png)
 
 
-The quality of the causality analysis is a critical determinant of the
-quality of the resulting plans and the impact on health system
-performance. It is important to have around the table people with the
-right knowledge and expertise.
+The user can select determinants and indicators from the dropdown lists and use the free texts to document the root cause and solutions. Once done there is a tick icon on the solution column, the user will click this icon to save the data.
 
-Once a bottleneck is identified, the root causes need to be thoroughly
-assessed
+![Adding root causes and suggested solutions for identified bottlenecks in the bottleneck application](resources/images/image_r2.png)
 
-It is important to know what to look for when facilitating a root cause
-analysis.
+The quality of the causality analysis is a critical determinant of the quality of the resulting plans and the impact on health system performance. It is important to have around the table people with the right knowledge and expertise.
 
-1.  Common causes of bottlenecks in the health system (specific for each
-    determinant)
-2.  Main environmental factors (Social Norms, Legislation/ Policy,
-    Budget/ expenditure, Management/ Coordination)
-3.  Possible crisis/hazards (if relevant)
+Once a bottleneck is identified, the root causes need to be thoroughly assessed
 
-Once identified, proposed solutions/ actions need to be documented for
-follow-up and implementation.
+It is important to know what to look for when facilitating a root cause analysis.
 
-To edit data the user can simply double click a row to make active for
-editing or right click a row to get a context menu. Currently the
-context menu has two operations Edit and Delete, whereas, selecting
-“edit” makes a column active for changes and selecting “delete”
-removes the data of the particular row from the system.
+1. Common causes of bottlenecks in the health system (specific for each determinant)
+2. Main environmental factors (Social Norms, Legislation/ Policy, Budget/ expenditure, Management/ Coordination)
+3. Possible crisis/hazards (if relevant)
 
-![Editing or deleting root cause in the specified bottleneck of the selected intervention in the bottleneck application](resources/images/image29.png)
+Once identified, proposed solutions/ actions need to be documented for follow-up and implementation.
+
+To edit data the user can simply double click a row to make active for editing or right click a row to get a context menu. Currently the context menu has two operations Edit and Delete, whereas, selecting “edit” makes a column active for changes and selecting “delete” removes the data of the particular row from the system.
+
+![Editing or deleting root cause in the specified bottleneck of the selected intervention in the bottleneck application](resources/images/image_r3.png)

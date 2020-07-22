@@ -33,7 +33,7 @@ country's implementations. The primary two users are:
 1. **_Administrators:_** can manage interventions with operations such as creating
 interventions, applying data filters for interventions, making legend definitions
 and many more administrative operations.
-2. **_District users: _** analyzing the bottlenecks can switch through their
+2. **_District users:_** analyzing the bottlenecks can switch through their
 interventions, bookmark their favorite interventions and perform root cause
 analysis through the root cause analysis widget.
 
@@ -43,30 +43,31 @@ bottleneck and their solutions.
 
 ## Global DHIS2 Menu
 
-When using the Bottleneck analysis App the Global DHIS2 Menu is
-accessible on its usual position. The user can use the global menu to
-access other apps and to log out of the system. Most of the app
-notifications will pop on the top position where the DHIS2 global menu
-exists.
+To browse the BNA app, access the DHIS2 demo server with the login credentials
+provided on the page. Once logged in, search for Bottleneck Analysis App on the
+Search bar.
 
-![Accessing DHIS2 Global Menu while using BNA App in DHIS2](resources/images/image36.png)
+![Accessing DHIS2 Global Menu while using BNA App in DHIS2](resources/images/image_36.png)(width=50%)
+
+Search for Bottleneck Analysis application and click on it
+![Figure 2.3.-B: Searching for the Bottleneck Analysis App on apps list or by typing full or part of app name “Bottleneck Analysis App](resources/images/Imgsearch.png)
 
 ## Interventions list
 
-The interventions list is found just under the DHIS2 global menu. Users
-can only see the interventions if they created them or shared to them.
-Accessing the shared interventions is limited to the access level they
-are shared.
+Upon loading the BNA App, users will have access to available interventions and an option to search for more interventions which may not be displayed upon loading. Accessing the shared interventions is limited to the access level they are shared.
 
-![List of Interventions accessible to logged in user in the BNA App](resources/images/image40.png)
+![Figure 2.4-A: List of Interventions accessible to logged in user in the BNA App](resources/images/image40.png)
+
+
+![Figure 2.4-B: Bottleneck analysis chart of the intervention selected from figure 2.4-A](resources/images/image40_.png)
 
 ## Interventions Global filters
 
 Right under the interventions list there are controls for the active
 interventions. The filter control when clicked expands to offer the user
-an ability to make data selections, period selections, organization unit
+an ability to make data selections, period selections, organisation unit
 selections, and legend configurations. However, all users except
-administrators have access to Period Organization unit filters only.
+administrators have access to Period Organisation unit filters only.
 More details on these operations can be found on chapter 4 section 4.
 
 ![Global filter controls in one of the selected Interventions in the BNA App](resources/images/image002.png)
