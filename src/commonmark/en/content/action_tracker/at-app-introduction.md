@@ -33,10 +33,8 @@ actions. Following the design of BNA, Scorecard and Root Cause Analysis Apps in
 DHIS2, it was paramount to design the Action Tracker within DHIS2 to complete
 the cascade of Bottle Neck Analysis.
 
-__Note__: Linked Action Tracker App is
-dependent on BNA app implementation. All actions to be listed on Action Tracker
-App must be referencing bottlenecks identified using BNA app. You cannot
-implement Action Tracker App without a BNA app.
+> __NOTE__
+> Linked Action Tracker App is dependent on BNA app implementation. All actions to be listed on Action Tracker App must be referencing bottlenecks identified using BNA app. You cannot implement Action Tracker App without a BNA app.
 
 ## 1.4 Accessing the Linked Action Tracker
 
