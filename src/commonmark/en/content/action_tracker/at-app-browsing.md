@@ -1,4 +1,4 @@
-## 1.5 Browsing the Action Tracker	 	 		
+## Browsing the Action Tracker
 
 To browse the action tracker app, access the DHIS2 demo server with the login
 credentials provided on the page. Once logged in, search for Action Tracker on
@@ -12,10 +12,9 @@ Click on the Action Tracker to load the Action Tracker App and once loaded, the
 user can select the intervention, period, organization unit or modify legend
 accordingly;
 
-
 ![Figure 1.5.-B: Loaded Action Tracker App](resources/images/image05.png){width=70%}
 
-### 1.5.1 Selection of an Intervention
+### Selection of an Intervention
 
 The user needs to select the intervention on which bottleneck analysis and root
 cause analysis were performed and would now like to track actions to improve
@@ -26,16 +25,16 @@ Click on the intervention tab to display a list of all available interventions.
 ![Figure 1.5.1-A: Intervention tab providing access to intervention selection](resources/images/image06.png){width=60%}
 
 1. Click on the intervention for which a bottleneck was identified. This
-intervention will be selected and displayed to the right.
-![Figure 1.5.1-B: List of available interventions for selection](resources/images/image07.png){width=60%}
+   intervention will be selected and displayed to the right.
+   ![Figure 1.5.1-B: List of available interventions for selection](resources/images/image07.png){width=60%}
 
 2. Click update to save the intervention
-![Figure 1.5.1-A: Selection of an Intervention](resources/images/image08.png){width=60%}
+   ![Figure 1.5.1-A: Selection of an Intervention](resources/images/image08.png){width=60%}
 
-**Note:** Selection of the wrong intervention will not display the Root Cause
+__Note:__ Selection of the wrong intervention will not display the Root Cause
 Analysis data on the linked Action Tracker
 
-### 1.5.2 Legend Configurations
+### Legend Configurations
 
 The user can modify the legend based on the number of stages for tracking the
 action status. Currently the Action Tracker has 5 colour codes which indicate
@@ -63,9 +62,9 @@ Click update to save the changes made to the legend
 
 ![Figure 1.5.2-A: Saving changes to legend configurations done](resources/images/image13.png){width=60%}
 
-**Note:** Access to configuration of legends depends on user’s access roles
+__Note:__ Access to configuration of legends depends on user’s access roles
 
-### 1.5.3 Period Selection
+### Period Selection
 
 The Action Tracker allows you to make period selections for fixed periods,
 relative periods and extended relative periods. All period selections types
@@ -92,7 +91,7 @@ Click update to save the selected period
 
 ![Figure 1.5.3-E: Saving changes for period selection done](resources/images/image18.png){width=60%}
 
-### 1.5.4 Organization Unit Selection
+### Organization Unit Selection
 
 The orgunit selection allows you to select the org unit level for which actions
 will be tracked. This is the same level for which the root cause analysis was done.
@@ -109,7 +108,7 @@ Click update to save the selected Orgunit level
 
 ![Figure 1.5.4-C: Saving organization unit selected for display](resources/images/image21.png){width=60%}
 
-**Note:** Selection of the wrong organization unit level will not display the
+__Note:__ Selection of the wrong organization unit level will not display the
 Root Cause Analysis data on the Action Tracker
 
 Once the organization unit is selected and saved, data from the root cause

@@ -1,6 +1,6 @@
-# Chapter 1. Linked Action Tracker Dashboard and Demo server
+# Linked Action Tracker Dashboard and Demo server
 
-## 1.1 Introduction to the Action Tracker App
+## Introduction to the Action Tracker App
 
 Action Tracker is part of the bottleneck and scorecard cascade that utilizes
 DHIS2 analytical features to assess national and sub-national level performance
@@ -17,7 +17,7 @@ with DHIS2 2.28 and above.
 
 ![Figure 1.1-A: Standard layout of the Action Tracker dashboard](resources/images/image01.png){width=80%}
 
-## 1.2 Advantages of the Action Tracker App
+## Advantages of the Action Tracker App
 
 The Action Tracker App helps track the status of key steps taken to address the
  root causes of key bottlenecks in priority interventions. It is built within
@@ -25,7 +25,7 @@ The Action Tracker App helps track the status of key steps taken to address the
  systematic analysis, status update and follow up of actions taken to address
  possible solutions to key bottlenecks in health service delivery.
 
-## 1.3 Rationale for the Linked Action Tracker App
+## Rationale for the Linked Action Tracker App
 
 The Linked Action Tracker enables health managers track progress on implementation
 of actions for proposed solutions and allows for review and follow up of these
@@ -33,11 +33,10 @@ actions. Following the design of BNA, Scorecard and Root Cause Analysis Apps in
 DHIS2, it was paramount to design the Action Tracker within DHIS2 to complete
 the cascade of Bottle Neck Analysis.
 
-**Note**: Linked Action Tracker App is
+__Note__: Linked Action Tracker App is
 dependent on BNA app implementation. All actions to be listed on Action Tracker
 App must be referencing bottlenecks identified using BNA app. You cannot
 implement Action Tracker App without a BNA app.
-
 
 ## 1.4 Accessing the Linked Action Tracker
 
@@ -45,7 +44,7 @@ This user guide is documented using the Linked Action Tracker App which is
 available on the [DHIS2 demo server](https://scorecard-dev.dhis2.org/demo/).
 The Action Tracker is set up in the DHIS2 Demo server and with linkages to the
 BNA, Scorecard and Root Cause Analysis Apps. The current demo server can be
-accessed on: [https://scorecard-dev.dhis2.org/demo/](https://scorecard-dev.dhis2.org/demo/)
+accessed on: <https://scorecard-dev.dhis2.org/demo/>
 with the username and password provided on the login page.
 
 ![Figure 1.4-A: Logging and accessing the Action Tracker demo server](resources/images/image02.png){width=50%}
