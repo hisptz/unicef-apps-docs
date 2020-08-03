@@ -29,13 +29,12 @@ getting lost in the middle of performing their usual operations.
 The BNA App is flexible to adapt to any number of user journeys depending on the
 country's implementations. The primary two users are:
 
-
-1. **_Administrators:_** can manage interventions with operations such as creating
-interventions, applying data filters for interventions, making legend definitions
-and many more administrative operations.
-2. **_District users:_** analyzing the bottlenecks can switch through their
-interventions, bookmark their favorite interventions and perform root cause
-analysis through the root cause analysis widget.
+1. ___Administrators:___ can manage interventions with operations such as creating
+   interventions, applying data filters for interventions, making legend definitions
+   and many more administrative operations.
+2. ___District users:___ analyzing the bottlenecks can switch through their
+   interventions, bookmark their favorite interventions and perform root cause
+   analysis through the root cause analysis widget.
 
 Other bottleneck App users can be national, and regional/counties  users who
 can only analyse bottlenecks, sub-nation analysis, route causes for each
@@ -58,7 +57,6 @@ Upon loading the BNA App, users will have access to available interventions and 
 
 ![Figure 2.4-A: List of Interventions accessible to logged in user in the BNA App](resources/images/image40.png)
 
-
 ![Figure 2.4-B: Bottleneck analysis chart of the intervention selected from figure 2.4-A](resources/images/image40_.png)
 
 ## Interventions Global filters
@@ -76,9 +74,9 @@ More details on these operations can be found on chapter 4 section 4.
 
 All interventions in the BNA App contains three items, namely:
 
-1.  The Bottleneck Analysis Chart
-2.  The Sublevel Analysis Table
-3.  The Root Cause Analysis Widget
+1. The Bottleneck Analysis Chart
+2. The Sublevel Analysis Table
+3. The Root Cause Analysis Widget
 
 These intervention items will be empty when an intervention is created.
 The administrator is expected to configure the intervention items by

@@ -15,15 +15,14 @@ To create new intervention, administrative user can click on the blue plus sign
 button just below list of interventions on the dashboard. Interventions are the
 ones holding determinants which holds indicators.
 
-![](resources/images/image009.png){width=5%}
+![](resources/images/image009.png){width=50%}
 
 Then have to write the intervention name(eg. BEmOnC) and click create button to
 save the intervention.
 
 ![](resources/images/image010.png){width=50%}
 
-
-**Note:** Attempting creating an intervention that is existing, will  be denied
+__Note:__ Attempting creating an intervention that is existing, will  be denied
 by the system and presented a message that the intervention is already existing.
 
 ![](resources/images/image011.png){width=25%}
@@ -44,13 +43,12 @@ of each determinant group indicator(s).
 
 ![](resources/images/image013.png){width=50%}
 
-**Note:** Bar charts of every indicator attached to a particular determinant
+__Note:__ Bar charts of every indicator attached to a particular determinant
 group will inherit the colour of that determinant group.
 
 To add indicators into a determinant group, just click on the plus sign button
 to get a list of indicators from indicators or functions to add to the
 determinant group for BNA chart configuration.
-
 
 ### Adding Indicators and Configuring legend-sets
 
@@ -72,15 +70,15 @@ Interventions work in the same way as DHIS 2 dashboards. If not shared, only
 users who created them can access and manage. There are three sharing options
 that administrative users can share opt to share intervention.
 
-1. **Can View and edit:** With this option, any user shared intervention with
-this privilege can access and edit it, including changing settings of items in
-it. This access should only be given to administrative users only.
-2. **Can view only:** Administrative users should select this option to share
-intervention with users who are supposed to access BNA chart and sub-level
-analysis and enter root causes. For BNA application context, view only is
-granted to district, regional and national users who are not supposed to make
-any changes to the settings.
-3. **No Access:** If you don’t want to share access to anyone.
+1. __Can View and edit:__ With this option, any user shared intervention with
+   this privilege can access and edit it, including changing settings of items in
+   it. This access should only be given to administrative users only.
+2. __Can view only:__ Administrative users should select this option to share
+   intervention with users who are supposed to access BNA chart and sub-level
+   analysis and enter root causes. For BNA application context, view only is
+   granted to district, regional and national users who are not supposed to make
+   any changes to the settings.
+3. __No Access:__ If you don’t want to share access to anyone.
 
 ![](resources/images/image015.png){width=50%}
 
@@ -106,7 +104,7 @@ the interventions. To save the configurations they simply have to click the
 
 ![](resources/images/image017.png){width=70%}
 
- **Note:** Editing and saving configurations of a shared intervention will
+ __Note:__ Editing and saving configurations of a shared intervention will
  reflect the new configurations to the district end user with whom the
  intervention has been shared with.
 
@@ -121,7 +119,7 @@ analytics resources (such as the BNA chart, sub-org unit  level analysis tables,
   analytics process ran, will become visible.
 
 You can trigger the analytics process manually by selecting
-**Reports->Analytics** from the main menu and pressing the “Start export” button.
+__Reports->Analytics__ from the main menu and pressing the “Start export” button.
 Note, the process may take a significant amount of time depending on the amount
 of data in your database.
 
@@ -130,7 +128,7 @@ of data in your database.
 Functions selections are extended analytics calculations supporting a more
 open-ended logic of computation, such as logical operations, predictors and
 other complex analytics use cases. To create functions to work with BNA App,
-download function maintenance application from this link: [https://play.dhis2.org/appstore/app/dXX2Fk6jwCX](https://play.dhis2.org/appstore/app/dXX2Fk6jwCX). Functions makes
+download function maintenance application from this link: <https://play.dhis2.org/appstore/app/dXX2Fk6jwCX>. Functions makes
 use of pure good old JavaScript(vanilla JavaScript) logic to do calculations
 purely on the browser, without the need for a server. This is accomplished by
 execution of JavaScript codes that expects period and data selections and return
@@ -142,48 +140,49 @@ operations, predictors and other complex analytics use cases.
 
 Functions comprises of three key building blocks:
 
-4. **Input/Selection parameters:** Function expects standard DHIS2 periods and
-organization units selections.
-5. **Computation logic:** This is an open-ended workspace for writing of
-calculation logic to work on given period and organization unit selections,
-computation logic is usually classified into rules dimensions, thus allowing
-one function to support different use cases by defining multiple rules that
-will control the computation logic. Possibilities are limitless, among major
-operations done includes.
-    1. Fetching data from aggregate and event analytics and modifying results
-    with custom logic, and reformat the results back in standard analytics format.
-    2. Fetching data from existing sql Views, performing custom logics and
-    formatting results in standard analytics format.
-    3. Fetching data from other DHIS2 API endpoints(such as data-value and
-      events api) and other data sources(including external sources), performing
-      custom logic and formatting results in standard analytics format. 
-6. **Output/Returned analytics**: This is the end-result output from functions,
-formatted in 	standard analytics format, to allow compatibility with standard
-DHIS2 analytics applications. To support open-ended support for any level of
-complexity, function maintenance application has been developed, to allow any
-developer with basic JavaScript knowledge to quickly develop custom calculations
-either not supported natively by DHIS2 or to allow developers to work-around
-limitations or miscalculations from standard analytics.
+4. __Input/Selection parameters:__ Function expects standard DHIS2 periods and
+   organization units selections.
+5. __Computation logic:__ This is an open-ended workspace for writing of
+   calculation logic to work on given period and organization unit selections,
+   computation logic is usually classified into rules dimensions, thus allowing
+   one function to support different use cases by defining multiple rules that
+   will control the computation logic. Possibilities are limitless, among major
+   operations done includes.
+       1\. Fetching data from aggregate and event analytics and modifying results
+       with custom logic, and reformat the results back in standard analytics format.
+       2\. Fetching data from existing sql Views, performing custom logics and
+       formatting results in standard analytics format.
+       3\. Fetching data from other DHIS2 API endpoints(such as data-value and
+         events api) and other data sources(including external sources), performing
+         custom logic and formatting results in standard analytics format. 
+6. __Output/Returned analytics__: This is the end-result output from functions,
+   formatted in 	standard analytics format, to allow compatibility with standard
+   DHIS2 analytics applications. To support open-ended support for any level of
+   complexity, function maintenance application has been developed, to allow any
+   developer with basic JavaScript knowledge to quickly develop custom calculations
+   either not supported natively by DHIS2 or to allow developers to work-around
+   limitations or miscalculations from standard analytics.
 
 Main requirements for developing functions includes:
-*   Basic web programming knowledge with JavaScript (jQuery is an advantage).
-*   Understanding of DHIS2 Web API and analytics.
-*   A working installation of Functions maintenance application. When a function
-maintenance application is installed for the first time, it creates five standard
-functions  with generic use cases as example functions to allow reuse of codes to
-create other functions. The auto created functions will also be listed in the
-functions selection list.
 
-> **CAUTION**
+* Basic web programming knowledge with JavaScript (jQuery is an advantage).
+* Understanding of DHIS2 Web API and analytics.
+* A working installation of Functions maintenance application. When a function
+  maintenance application is installed for the first time, it creates five standard
+  functions  with generic use cases as example functions to allow reuse of codes to
+  create other functions. The auto created functions will also be listed in the
+  functions selection list.
+
+> __CAUTION__
 >
 > Sharing settings from 2.28 going back is only implemented on the
-interface, access control is not strictly enforced, it is for simplicity in
-management of BNA Interventions only through the datastore.
+> interface, access control is not strictly enforced, it is for simplicity in
+> management of BNA Interventions only through the datastore.
 
-> **NOTE**
+> __NOTE__
 >
->User groups appearing on the access sharing list should exist in the user
-groups that were created in the “Users” app.
+> User groups appearing on the access sharing list should exist in the user
+> groups that were created in the “Users” app.
 
 ### Bookmark an Intervention
 
@@ -203,10 +202,10 @@ analysis and root cause analysis created under that intervention. This is why be
 deleting, you will be asked to confirm if you are sure you want to delete it,
 where you will click “yes” to delete or “no” to cancel.
 To delete an intervention, the administrative user can:
-1. Go to search for intervention just allocated on the right hand side of
+1\. Go to search for intervention just allocated on the right hand side of
 adding new intervention icon and
-2. click the delete icon next to edit button on the the specific intervention.
-3. Select an intervention from the list, and click “DELETE” button on the far
+2\. click the delete icon next to edit button on the the specific intervention.
+3\. Select an intervention from the list, and click “DELETE” button on the far
 right side of the App and confirming deletion by clicking ‘yes’ option.
 
 ![Deleting an intervention](resources/images/image57.png){width=25%}
@@ -225,7 +224,6 @@ App Management in the DHIS2 global menu to install it.
 ![ BNA widget in DHIS2 App store](resources/images/image47.png){width=70%}
 
 ![Installing BNA widget in DHIS2](resources/images/image59.png){width=70%}
-
 
 ### Setting up Widgets
 
@@ -258,7 +256,7 @@ sure, “Clear the following items from” is set to “The beginning of
 time”.                                 
 
 • Mozilla Firefox​: Go to the menu icon on the top right corner, and
-click it to open, go to -\>Library, and go to History, and choose “Clear
+click it to open, go to ->Library, and go to History, and choose “Clear
 recent history”. Once interface is open, Make sure “Time range to clear”
 is set to “Everything”, and “Details” option is expanded to show all
 details options. Once on the clear browsing data or recent history, tick
@@ -268,10 +266,10 @@ clear all cached files, cookies and locally stored data by bottleneck
 
  ![Menu icons in Google chrome and firefox  ](resources/images/image39.png){width=10%}
 
-> **NOTE**
+> __NOTE__
 >
 > These will also clear all cache information
-and cookies from other websites you visited in your browser.
+> and cookies from other websites you visited in your browser.
 
 ![Google chrome interface for clearing browser cache ](resources/images/image45.png){width=70%}
 
