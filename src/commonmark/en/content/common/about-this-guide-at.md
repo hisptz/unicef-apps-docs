@@ -6,8 +6,8 @@ This guide is meant to assist all users of the action tracker app to plan and
 implement the application within the existing HIS framework of either Ministry
 of Health or individual organisations.
 
-This guide is also tailored for the **LINKED** Action Tracker app that is fully
-**DEPENDENT** on the Bottleneck analysis and the Scorecard applications.
+This guide is also tailored for the __LINKED__ Action Tracker app that is fully
+__DEPENDENT__ on the Bottleneck analysis and the Scorecard applications.
 
 While the guide strives to be complete, there may be certain functionalities
 topics which have been omitted or which have yet to be documented. This section
@@ -15,37 +15,36 @@ topics which have been omitted or which have yet to be documented. This section
 
 The Action Tracker App is a browser-based application. In many cases, screenshots
  have been included for enhanced clarity. Shortcuts to various functionalities
-are displayed such as **Data element** ">" **Data element group**. The
-">" symbol indicates that you should click **Data element** and then
-click **Data element group** in the user interface.
-
+are displayed such as __Data element__ ">" __Data element group__. The
+">" symbol indicates that you should click __Data element__ and then
+click __Data element group__ in the user interface.
 
 Different styles of text have been used to highlight important parts of
 the text or particular types of text, such as source code. Each of the
 conventions used in the document are explained below.
 
-> **Note**
+> __Note__
 >
 > A note contains additional information which should be considered or a
 > reference to more information which may be helpful.
 
-> **Tip**
+> __Tip__
 >
 > A tip can be a useful piece of advice, such as how to perform a
 > particular task more efficiently.
 
-> **Important**
+> __Important__
 >
 > Important information should not be ignored, and usually indicates
 > something which is required by the application.
 
-> **Caution**
+> __Caution__
 >
 > Information contained in these sections should be carefully
 > considered, and if not heeded, could result in unexpected results in
 > analysis, performance, or functionality.
 
-> **Warning**
+> __Warning__
 >
 > Information contained in these sections, if not heeded, could result
 > in permanent data loss or affect the overall usability of the system.
