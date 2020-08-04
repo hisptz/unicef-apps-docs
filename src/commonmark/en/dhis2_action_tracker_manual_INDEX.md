@@ -1,16 +1,18 @@
 ---
 
 title: 'DHIS 2 manual for the Action Tracker App'
-author: 'Action-tracker team'
+author: 'BNA app team'
+subauthor: 'in collaboration with HISP UiO, HISP Uganda & HISP Tanzania'
 date:
 year: 2020
 month: January
 keywords: [DHIS2, HISP]
 commit:
-version: 1.0.0-rc.0
+version: 1.0
 applicable_txt: 'Applicable to version 1.0.0-rc.0'
+logo: resources/images/image1.png
 
-## logo: resources/images/image1.png
+---
 
 <!--DHIS2-SECTION-ID:index-->
 
