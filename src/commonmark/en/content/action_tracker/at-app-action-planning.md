@@ -2,7 +2,7 @@
 
 The action planning section allows you to record actions aimed at addressing the root causes of bottlenecks in the different determinants of health coverage. It provides a description of the actions required to address a specific problem, states the period within which this action should be done, responsible person, status of completion, review date and provides for any review notes.
 
-## 2.1 Action Planning
+## Action Planning
 
 To access Action Planning option click on Action Planning tab
 ![Figure 2.1-A: Action Planning in the Action Tracker](resources/images/image23.png){width=40%}
@@ -41,7 +41,7 @@ Once all the fields on  Figure 2.1-C above  have been filled, click on “update
 
 In cases where the possible solution requires more than one action, additional actions can be added using the add button in the last column to the right (See Figure 2.1-B above). Click the ![Figure 2.1-D: Saving new Action to be tracked](resources/images/image27.png){width=10%} icon to add more actions to the proposed solution. Once the fields are filled, save to continue.
 
-# 2.1.6 Edit or Delete a Field
+## Edit or Delete a Field
 
 To Edit or Delete an entry, right click on any cell for a given intervention and edit or delete an entry accordingly.
 
