@@ -10,8 +10,7 @@ keywords: [DHIS2, HISP]
 commit:
 version: 1.0
 applicable_txt: 'Applicable to version 1.0'
-logo: |
-  ![](resources/images/image1.png){width=1in}
+logo: resources/images/image1.png
 
 ---
 
