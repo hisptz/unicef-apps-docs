@@ -1,5 +1,4 @@
 ---
-
 title: 'DHIS 2 manual for the Bottleneck Analysis App'
 author: 'BNA App team'
 subauthor: 'in collaboration with HISP UiO, HISP Uganda & HISP Tanzania'
@@ -11,7 +10,6 @@ commit:
 version: 1.2.2-rc.2
 applicable_txt: 'Applicable to version 1.2.2-rc.2'
 logo: resources/images/image17.png
-
 ---
 
 <!--DHIS2-SECTION-ID:index-->
