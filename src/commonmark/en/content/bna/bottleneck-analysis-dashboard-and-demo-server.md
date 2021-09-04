@@ -64,7 +64,7 @@ server. Additionally, the demo server is also setup to host both demo
 data and metadata across various interventions to give chance to users
 of the system to explore and learn system features and functions. The
 current demo server can be accessed on :
-[https://hisp.apps.dhis2.org/training/](https://www.google.com/url?q=https://hisp.apps.dhis2.org/training/&sa=D&ust=1571141929529000)
+[https://hisp.apps.dhis2.org/training/](https://hisp.apps.dhis2.org/training/)
 
 The server is hosted in the cloud and can be accessed on the
 internet via a browser from anywhere as long as there is availability
@@ -102,6 +102,6 @@ definition and calculation cannot easily be created using the Indicator
 maintenance app in the DHIS2. The app can be easily used by developers
 to create custom codes to retrieve and  use indicators with complex
 calculations. To use the app, find it
-[here](https://www.google.com/url?q=https://play.dhis2.org/appstore/app/jofgGmsCFr7&sa=D&ust=1571141929532000)
+[here](https://apps.dhis2.org/)
 
 ![Function maintenance app](resources/images/image27.png)
