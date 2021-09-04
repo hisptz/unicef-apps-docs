@@ -12,7 +12,7 @@ and building on what exists.
 The BNA App is developed and maintained by the HISP Community (UiO,
 HISP-Tanzania and HISP Uganda) in collaboration with UNICEF. The BNA app
 is available
-[here](https://play.dhis2.org/appstore/app/x7DbGPFXziA) for
+[here](https://apps.dhis2.org) for
 download.  It is currently compatible with DHIS2 2.28 and above.   
 
 ![Standard layout of the BNA App dashboard](resources/images/image001.png)
