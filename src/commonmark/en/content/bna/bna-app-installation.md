@@ -1,7 +1,7 @@
 # Installing the BNA App
 
 The BNA app is completely free and open source and available on the
-[DHIS2 app store](https://play.dhis2.org/appstore/app/gFr0w6pDYbY).
+[DHIS2 app store](https://apps.dhis2.org/).
 
 To install an application in DHIS2, you require the superuser privilege.
 Ensure your account has the necessary authority to install the application or
@@ -40,7 +40,7 @@ DHIS2 instance is accessible online.
 ## Installation from DHIS2 App store website
 
 Access the interactive bottleneck analysis and bottleneck root cause data entry
-apps from the [DHIS2 app store](https://play.dhis2.org/appstore/). This approach
+apps from the [DHIS2 app store](https://apps.dhis2.org/). This approach
 is recommended for all DHIS2 instances running on version 2.28 and above.
 
 > **NOTE**
