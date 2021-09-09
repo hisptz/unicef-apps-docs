@@ -39,7 +39,7 @@ the cascade of Bottle Neck Analysis.
 ## 1.4 Accessing the Linked Action Tracker
 
 This user guide is documented using the Linked Action Tracker App which is
-available on the [DHIS2 demo server](https://scorecard-dev.dhis2.org/demo/).
+available on the [DHIS2 demo server](https://hisp.apps.dhis2.org/training/).
 The Action Tracker is set up in the DHIS2 Demo server and with linkages to the
 BNA, Scorecard and Root Cause Analysis Apps. The current demo server can be
 accessed on: <https://scorecard-dev.dhis2.org/demo/>
