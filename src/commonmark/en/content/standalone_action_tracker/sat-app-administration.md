@@ -6,14 +6,14 @@ The Standalone Action Tracker App includes a module for administrators to config
 3. **_Action status option:_** management of possible status options for actions to be documented and tracked.
 
 
-## 4.1 Accessing Administration module
+## Accessing Administration module
 
 To access the standalone action tracker administration module, click on the Settings button.
 **Note:** Only users whose accounts have administrative privileges can access the administration module
 
 ![Figure 4.1: Accessing the Action Tracker Administration Module](resources/images/image401.png)
 
-**4.2 Managing general settings**
+**Managing general settings**
 
 The genera settings allow users to manage the following three options:
 
@@ -26,7 +26,7 @@ The genera settings allow users to manage the following three options:
 ![Figure 4.2-B: Accessing options for defining planning period, tracking period and planning organization unit level](resources/images/image403.png)
 
 
-## 4.3 Managing challenges identification methods 
+## Managing challenges identification methods 
 
 This option allows administrative users to define methods that can be associated with documentation of the challenges for the interventions to be tracked. When documenting interventions and actions, normal users will be required to select what method was used to identify the challenge to be tracked. This administration module allows definition of such methods.
 
@@ -38,7 +38,7 @@ This option allows administrative users to define methods that can be associated
 **_Note:_** If the administrator will be accessing this section for the first time, he/she will be notified that there are no methods registered.
 
 
-### 4.3.1 Adding new method
+### Adding new method
 
 To add a new method, the administrator should click on the plus button and complete the required information on the new form for adding the method. Upon completion of adding required information, the user should click on the Save Method button.
 
@@ -47,7 +47,7 @@ To add a new method, the administrator should click on the plus button and compl
 ![Figure 4.3.1-B: Form for adding details of the new method for identifying challenges.](resources/images/image407.png)
 
 
-### 4.3.2 Managing existing method
+### Managing existing method
 
 On the list of registered methods, administrators may click on the actions option to be able to delete or edit details of the existing method.
 
@@ -62,7 +62,7 @@ To delete the details of the existing method, the user should click the non Dele
 
 ![Figure 4.3.2-C: Confirming deletion of existing method](resources/images/image410.png)
 
-## 4.4 Managing status options
+## Managing status options
 
 This option allows administrative user to define possible status methods that normal user can assign to actions to be tracked. To allow for easy visualization, definition of status allows administrators to link them with colour codes that can easily indicate if the progress is good or bad.
 
@@ -72,7 +72,7 @@ This option allows administrative user to define possible status methods that no
 Note: if there will be no action status added, administrator will be notified that there is no existing methods.
 
 
-### 4.4.1 Adding new action status
+### Adding new action status
 
 To add new action status option, administrator should click on the plus (add) button and complete details and configuration the action status as per form to be displayed
 
@@ -82,7 +82,7 @@ To add new action status option, administrator should click on the plus (add) bu
 ![Figure 4.4: Form for providing details and configuration of action status option](resources/images/image413.png)
 
 
-### 4.4.2 Managing action status option
+### Managing action status option
 
 On the list of registered action status option, administrators may click on actions option to be able to delete or edit details of the existing action status option.
 
@@ -97,7 +97,7 @@ To delete the details of existing action status option, user should click non De
 ![Figure 4.4.2-C: Confirming deletion of existing action status option](resources/images/image416.png)
 
 
-### 4.5 Re-accessing normal users’ module
+### Re-accessing normal users’ module
 
 To access the options for normal users, the administrator should click on the Back to action planning option.
 

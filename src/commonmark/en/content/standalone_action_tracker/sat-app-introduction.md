@@ -1,7 +1,4 @@
-# Standalone Action Tracker App Demo server
-
-
-## Introduction to the Standalone Action Tracker App
+# Introduction to the Standalone Action Tracker App
 
 Action tracking is a key concept to support follow-ups on planning done by implementers at different levels in the health system. The standalone alone action tracker app is built on the work done on the linked action tracker app which supported and was linked with the Bottleneck Analysis (BNA) App.
 
