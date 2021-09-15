@@ -4,7 +4,7 @@ author: 'BNA App team'
 subauthor: 'in collaboration with HISP UiO, HISP Uganda & HISP Tanzania'
 date:
 year: 2021
-month: August
+month: September
 keywords: [DHIS2, HISP]
 commit:
 version: 1.0
@@ -14,9 +14,9 @@ logo: resources/images/image1.png
 
 <!--DHIS2-SECTION-ID:index-->
 
-!INCLUDE "./content/common/about-this-guide-at.md"
+!INCLUDE "./content/common/about-this-guide-sat.md"
 
-# Standalone Action Tracker App Demo
+# Standalone Action Tracker App
 
 !INCLUDE "content/standalone_action_tracker/sat-app-introduction.md", 1
 !INCLUDE "content/standalone_action_tracker/sat-app-architecture.md", 1

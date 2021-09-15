@@ -100,5 +100,6 @@ generate(){
 generate "dhis2_bottleneck_analysis_manual" "bna-app"
 generate "dhis2_scorecard_manual" "scorecard-app"
 generate "dhis2_action_tracker_manual" "action_tracker-app"
+generate "dhis2_standalone_action_tracker_manual" "standalone_action_tracker-app"
 
 rm -rf $tmp

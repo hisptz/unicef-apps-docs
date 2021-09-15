@@ -32,7 +32,7 @@ When using the Standalone Action Tracker App the Global DHIS2 Menu is accessible
 ![Figure 2.3: Accessing DHIS2 Global Menu while using Standalone Action Tracker App in DHIS2](resources/images/image204.png){width=80%}
 
 
-## 2.4 Organization units and period for tracking
+## Organization units and period for tracking
 
 The option to select organization unit and planning period are found just under the DHIS2 global menu. Users can select organization units they want to view or document actions. Upon selection of the organization unit, users will be able to select the corresponding period that they want to manage actions and/or track them.
 
