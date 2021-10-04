@@ -8,7 +8,7 @@ month: October
 keywords: [DHIS2, HISP]
 commit:
 version: 2.5.0
-applicable_txt: "Applicable to version 0.1"
+applicable_txt: "Applicable to version 2.5.0"
 logo: resources/images/image120.png
 ---
 
