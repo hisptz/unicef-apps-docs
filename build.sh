@@ -45,14 +45,14 @@ fi
 
 # pushing docs to localisation platform (transifex) is only done on Jenkins
 LOCALISE=0
-if [[ `id -un` == "jenkins" ]]; then
+if [[ $(id -un) == "jenkins" ]]; then
   # and only where configured
   if [ -f ~/.transifexrc ]; then LOCALISE=1; fi
 fi
 
 # set up the python environment
 if [ ! -d "venv" ]; then
-    source venv_setup
+  source venv_setup
 fi
 source ./venv/bin/activate
 
@@ -72,33 +72,32 @@ mkdir -p $localisation_root
 . "$SCRIPT_DIR/lib/doc_functions.sh"
 
 # generate function called for each document
-generate(){
-    name=$1
-    subdir=$2
-    selection=$3
-    if [ ! $selection ]
-    then
-      selection="both"
-    fi
+generate() {
+  name=$1
+  subdir=$2
+  selection=$3
+  if [ ! $selection ]; then
+    selection="both"
+  fi
 
-    echo "+--------------------------------------------------------"
-    echo "| Processing: $name"
-    echo "+--------------------------------------------------------"
+  echo "+--------------------------------------------------------"
+  echo "| Processing: $name"
+  echo "+--------------------------------------------------------"
 
-    assemble $name
-    update_localizations $name
+  assemble $name
+  update_localizations $name
 
-    # go to the temp directory and build the documents - put output in target directory
-    build_docs $name $subdir $selection en en_UK
+  # go to the temp directory and build the documents - put output in target directory
+  build_docs $name $subdir $selection en en_UK
 
 }
-
 
 # comment as you wish
 # format:
 #$> generate <doc name> <chapters subfolder> ["html","pdf","both"]
 generate "dhis2_bottleneck_analysis_manual" "bna-app"
 generate "dhis2_scorecard_manual" "scorecard-app"
+generate "dhis2_scorecard_manual_v2.5.0" "scorecard-app-v2.5.0"
 generate "dhis2_action_tracker_manual" "action_tracker-app"
 generate "dhis2_standalone_action_tracker_manual" "standalone_action_tracker-app"
 
