@@ -20,4 +20,4 @@ The scorecard app provides you with a quick visual output of performances for di
 
 The Scorecard app borrows its meta-data from the general DHIS2 data source and uses this to create a data store for ease of analysis and visualization. The Scorecard app metadata such as indicators and indicator groups are managed using the DHIS2 Indicator maintenance App.
 
-![Scorecard application on apps menu.](resources/images/Figure16.png)
+![Indicator maintenance App.](resources/images/Figure16.png)
