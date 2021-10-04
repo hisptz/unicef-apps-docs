@@ -96,8 +96,8 @@ generate() {
 # format:
 #$> generate <doc name> <chapters subfolder> ["html","pdf","both"]
 generate "dhis2_bottleneck_analysis_manual" "bna-app"
+generate "dhis2_scorecard_manual_old_version" "scorecard-app-old-version"
 generate "dhis2_scorecard_manual" "scorecard-app"
-generate "dhis2_scorecard_manual_v2.5.0" "scorecard-app-v2.5.0"
 generate "dhis2_action_tracker_manual" "action_tracker-app"
 generate "dhis2_standalone_action_tracker_manual" "standalone_action_tracker-app"
 

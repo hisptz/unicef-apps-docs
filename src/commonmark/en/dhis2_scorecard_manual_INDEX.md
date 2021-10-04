@@ -1,35 +1,26 @@
 ---
 title: 'DHIS 2 manual for the Interactive Scorecard App'
 author: 'Scorecard App team'
-subauthor: 'in collaboration with HISP UiO, HISP Uganda & HISP Tanzania'
+subauthor: 'in collaboration with HISP UiO, HISP Tanzania & HISP Uganda'
 date:
-year: 2019
+year: 2021
 month: October
 keywords: [DHIS2, HISP]
 commit:
-version: 0.1
-applicable_txt: 'Applicable to version 0.1'
+version: 2.5.0
+applicable_txt: 'Applicable to version 2.5.0'
 logo: resources/images/image120.png
 ---
+
 <!--DHIS2-SECTION-ID:index-->
 
-!INCLUDE "./content/common/about-this-guide.md"
+!INCLUDE "./common/about-this-guide.md"
 
-# Introduction and Usage
-
-!INCLUDE "content/scorecard/scorecard-and-demo-server.md", 1
-!INCLUDE "content/scorecard/installing-scorecard.md", 1
-!INCLUDE "content/scorecard/opening-and-browsing-scorecards.md", 1
-!INCLUDE "content/scorecard/analysis-with-scorecard.md", 1
-!INCLUDE "content/scorecard/scorecard-layouts-headers-and-legends.md", 1
-!INCLUDE "content/scorecard/additional-options.md", 1
-!INCLUDE "content/scorecard/context-menu.md", 1
-!INCLUDE "content/scorecard/further-analysis.md", 1
-!INCLUDE "content/scorecard/creating-and-managing-scorecard.md", 1
-!INCLUDE "content/scorecard/customizations-and-editing-of-scorecard.md", 1
-!INCLUDE "content/scorecard/related-indicators-analysis-in-dhis2.md", 1
-!INCLUDE "content/scorecard/scorecard-and-bottleneck-analysis-implementation.md", 1
-!INCLUDE "content/scorecard/help-tour-guide-translation.md", 1
-!INCLUDE "content/scorecard/scorecard-community-and-use-cases.md", 1
-!INCLUDE "content/scorecard/annex.md", 1
-!INCLUDE "content/scorecard/bibliography.md", 1
+!INCLUDE "content/scorecard/introduction-to-scorecard.md", 1
+!INCLUDE "content/scorecard/accessing-scorecard-app.md", 1
+!INCLUDE "content/scorecard/creating-scorecard.md", 1
+!INCLUDE "content/scorecard/saving-configurations.md", 1
+!INCLUDE "content/scorecard/viewing-scorecard.md", 1
+!INCLUDE "content/scorecard/scorecard-app-architecture.md", 1
+!INCLUDE "content/scorecard/accessing-and-translating-scorecard.md", 1
+!INCLUDE "content/scorecard/support-and-maintanace-options.md", 1
