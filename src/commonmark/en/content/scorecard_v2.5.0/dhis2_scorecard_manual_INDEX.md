@@ -20,3 +20,7 @@ logo: resources/images/image120.png
 !INCLUDE "content/scorecard_v2.5.0/accessing-scorecard-app.md", 1
 !INCLUDE "content/scorecard_v2.5.0/creating-scorecard.md", 1
 !INCLUDE "content/scorecard_v2.5.0/saving-configurations.md", 1
+!INCLUDE "content/scorecard_v2.5.0/viewing-scorecard.md", 1
+!INCLUDE "content/scorecard_v2.5.0/scorecard-app-architecture.md", 1
+!INCLUDE "content/scorecard_v2.5.0/accessing-and-translating-scorecard.md", 1
+!INCLUDE "content/scorecard_v2.5.0/support-and-maintanace-options.md", 1
