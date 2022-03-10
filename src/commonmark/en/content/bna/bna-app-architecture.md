@@ -46,7 +46,7 @@ To browse the BNA app, access the DHIS2 demo server with the login credentials
 provided on the page. Once logged in, search for Bottleneck Analysis App on the
 Search bar.
 
-![Accessing DHIS2 Global Menu while using BNA App in DHIS2](resources/images/image_36.png)(width=50%)
+![Accessing DHIS2 Global Menu while using BNA App in DHIS2](resources/images/image_36.png){width=50%}
 
 Search for Bottleneck Analysis application and click on it
 ![Figure 2.3.-B: Searching for the Bottleneck Analysis App on apps list or by typing full or part of app name “Bottleneck Analysis App](resources/images/Imgsearch.png)
