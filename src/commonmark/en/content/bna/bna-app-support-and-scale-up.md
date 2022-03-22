@@ -53,8 +53,8 @@ issue, do this using issue comments.
 
 1. Select the issue you want to comment.
 1. In the Issue Detail view click Comment and enter your text.
-1. To email others about your comment, simply enter \*\*\@User ‘s
-    Name\*\* in the comment field. An email will be sent to the users’
+1. To email others about your comment, simply enter **@\<Users
+    Name\>** in the comment field. An email will be sent to the users’
     email addresses that are registered with their JIRA accounts.
 1. Click Add.
 
@@ -72,8 +72,7 @@ and request for support on a topic of your interest.
     create a new account
 4.  Add a profile picture and [introduce
     yourself](https://community.dhis2.org/t/-/15) to
-    the community
-    ![](resources/images/image_imp4.png){width=40px}
+    the community :wave:
 5.  Read all the [category
     descriptions](https://community.dhis2.org/categories) to
     learn where posts go
