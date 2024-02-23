@@ -3,10 +3,10 @@
 # About This Guide
 !INCLUDE "./content/common/about-this-guide-sat.md", 1
 
-# Standalone Action Tracker App Demo server
+# Standalone Action Tracker App Demo Server
 !INCLUDE "content/standalone_action_tracker/sat-app-introduction.md", 1
 
-# Standalone Action Tracker App architecture and installation
+# Standalone Action Tracker App Architecture And Installation
 !INCLUDE "content/standalone_action_tracker/sat-app-architecture-and-installation.md", 1
 
 # Standalone Action Tracker Configuration
@@ -15,5 +15,5 @@
 # Navigating the Standalone Action Tracker App
 !INCLUDE "content/standalone_action_tracker/sat-app-browsing.md", 1
 
-# Standalone action tracker App Maintenance
+# Standalone Action Tracker App Maintenance
 !INCLUDE "content/standalone_action_tracker/sat-app-maintenance.md", 1
