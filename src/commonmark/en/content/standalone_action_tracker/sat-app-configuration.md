@@ -141,3 +141,30 @@ To edit or delete a field, the user should click on options under the actions co
 # Managing Action Configuration
 
 Action configuration allow users to manage:
+
+1. ***Action planning***: this section allows users to manage relevant fields that need to be documented when planning an action. Examples of such fields include Activity name, Description, Start Date, and End date. The fields managed under the action planning section will be completed at the stage when the user is defining (planning) the action or activity to be tracked.
+2. ***Action tracking***: this section allows users to manage relevant fields for managing the tracking of actions. Examples of such fields include status and comments. The fields managed under the action tracking section will be completed during the period of reviewing the action.
+3. ***Action status options***: this allows the user to configure custom options. Configuration of status options allows the user to define the status name, code, color, and icon.
+
+![Figure 3.20: Section for managing action planning fields](resources/images/image226.png){ .center width=60%}
+
+![Figure 3.21: section for managing action tracking fields](resources/images/image227.png){ .center width=60%}
+
+![Figure 3.22: Section for managing action status option](resources/images/image228.png){ .center width=60%}
+
+![Figure 3.23: Option for adding new option for action status](resources/images/image229.png){ .center width=60%}
+
+Adding new option form for action status allows users to define:
+
+1. ***Name***: what the status should be called e.g., postponed, canceled, completed, etc.
+2. ***Code***: code for the status action
+3. ***Icon***: A symbol to be used to indicate the status during tracking
+4. ***Color***: Colour code to be used when displaying status
+
+![Figure 3.24: Accessing icon options for the status](resources/images/image230.png){ .center width=50%}
+
+![Figure 3.25: Icons options](resources/images/image231.png){ .center width=60%}
+
+![Figure 3.26: Accessing options for configuring color code for the status](resources/images/image232.png){ .center width=50%}
+
+![Figure 3.27: Option for selecting code for the status configured](resources/images/image233.png){ .center width=60%}
