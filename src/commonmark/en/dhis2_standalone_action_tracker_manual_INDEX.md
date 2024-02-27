@@ -1,3 +1,17 @@
+---
+title: 'Stand Alone Action Tracker App End-user Manual'  
+author: 'The Standalone Action Tracker App Team'
+subauthor: 'in collaboration with HISP UiO, HISP Uganda & HISP Tanzania'
+date:
+year: 2024
+month: February
+keywords: [DHIS2, HISP]
+commit:
+version: 2.0
+applicable_txt: 'Applicable to version 2.0'
+logo: resources/images/image1.png
+---
+
 <!--DHIS2-SECTION-ID:index-->
 
 # About This Guide
