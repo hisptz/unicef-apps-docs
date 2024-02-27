@@ -20,3 +20,11 @@ __Note__: These will also clear all cache information and cookies from other web
 ![Figure 5.1-C: Mozilla firefox interface for clearing browser cache](resources/images/image268.png){ .center width=50%}
 
 # Standalone action tracker App Error Messages
+
+The standalone action tracker Application has error messages for the expected errors that could occur. 
+
+## Access Errors
+
+When working with the Standalone Action Tracker you may encounter access errors. These will appear when you do not have sufficient access to view or edit the selected configuration. To fix these errors, make sure you have the right access to the configuration
+
+![Figure 5.2.1: Access error](resources/images/image269.png){ .center width=60%}
